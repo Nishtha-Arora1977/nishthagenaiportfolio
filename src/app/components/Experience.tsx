@@ -8,12 +8,10 @@ const experiences = [
     period: 'June 2026 - Present',
     duration: 'Present',
     points: [
-      { text: 'Developing AI-powered recruitment platform (Work360) using Python and FastAPI', highlight: 'Work360' },
-      { text: 'Building backend REST APIs integrated with PostgreSQL and Supabase', highlight: 'REST APIs' },
-      { text: 'Working on candidate ranking using LLMs, embeddings, and Retrieval-Augmented Generation (RAG)', highlight: 'RAG' },
-      { text: 'Implemented resume parsing, AI-generated summaries, and semantic search pipelines', highlight: 'semantic search' },
-      { text: 'Debugging backend APIs, database workflows, authentication, and business logic', highlight: '' },
-      { text: 'Collaborating with frontend and backend teams using Git and Agile development practices', highlight: 'Agile' }
+      { text: 'Developing Work360, an AI-powered recruitment platform, with backend services designed around scalable, production-grade API workflows using Python and FastAPI', highlight: 'Work360' },
+      { text: 'Designed and shipped REST APIs powering authentication, database workflows and core recruitment logic, integrated directly into production on PostgreSQL and Supabase', highlight: 'REST APIs' },
+      { text: 'Owned the candidate-ranking pipeline end-to-end: resume parsing, embeddings generation, vector-based semantic search and LLM-based summarization, integrated via RAG', highlight: 'candidate-ranking pipeline' },
+      { text: 'Collaborating with frontend and backend teams using Git and Agile practices to ship AI-powered features iteratively into production', highlight: 'Agile' }
     ]
   },
   {
@@ -22,15 +20,14 @@ const experiences = [
     period: 'March 2026 - June 2026',
     duration: '3 Months',
     points: [
-      { text: 'Completed an 8-week virtual internship focused on Data Analytics and Visualization', highlight: '8-week' },
-      { text: 'Worked on projects involving Python, SQL, Excel, and Data Visualization', highlight: 'Python, SQL, Excel' },
-      { text: 'Learned data cleaning, preprocessing, and exploratory data analysis techniques', highlight: 'EDA' },
-      { text: 'Built analytical solutions and dashboards for business insights', highlight: 'dashboards' }
+      { text: 'Completed an 8-week virtual internship in Data Analytics and Visualization using Python, SQL and Excel', highlight: '8-week' },
+      { text: 'Worked across the full analytics workflow — data cleaning, preprocessing and exploratory analysis — to prepare raw datasets for reporting', highlight: 'exploratory analysis' },
+      { text: 'Built end-to-end analytics dashboards — from raw data cleaning through visualization — used to surface business insights for stakeholders', highlight: 'dashboards' }
     ]
   },
   {
     title: 'Data Analytics & Machine Learning Intern',
-    company: 'Infosys Springboard',
+    company: 'Infosys Springboard Learning',
     period: 'July 2025 - December 2025',
     duration: '6 Months',
     points: [

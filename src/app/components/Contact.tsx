@@ -62,7 +62,7 @@ export default function Contact() {
             <motion.a
               whileHover={{ scale: 1.05, x: 5 }}
               whileTap={{ scale: 0.95 }}
-              href="mailto:anishtha33@gmail.com"
+              href="mailto:nishtha01arora@gmail.com"
               className="flex items-center gap-4 p-5 bg-carbon-800/50 backdrop-blur-lg rounded-2xl hover:bg-carbon-800/70 transition-colors group border border-fuchsia-300/30 hover:border-fuchsia-300/50"
             >
               <motion.div
@@ -74,7 +74,7 @@ export default function Contact() {
               </motion.div>
               <div>
                 <p className="text-sm text-fuchsia-200/70 font-mono">Email</p>
-                <p className="text-slate-100 font-semibold">anishtha33@gmail.com</p>
+                <p className="text-slate-100 font-semibold">nishtha01arora@gmail.com</p>
               </div>
             </motion.a>
 
@@ -144,7 +144,7 @@ export default function Contact() {
             <motion.a
               whileHover={{ scale: 1.05, y: -3 }}
               whileTap={{ scale: 0.95 }}
-              href="mailto:anishtha33@gmail.com"
+              href="mailto:nishtha01arora@gmail.com"
               className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-fuchsia-300 to-fuchsia-300 text-white rounded-full font-semibold hover:from-fuchsia-200 hover:to-fuchsia-300 transition-all shadow-xl shadow-fuchsia-300/50"
             >
               <Send className="w-5 h-5" />

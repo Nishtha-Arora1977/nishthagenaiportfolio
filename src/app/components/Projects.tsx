@@ -1,14 +1,14 @@
-import { Users, Sprout, Brain, Eye, ShoppingCart, Film, BarChart3, Globe } from 'lucide-react';
+import { Users, Sprout, Brain, Eye, ShoppingCart, Film, BarChart3, Store } from 'lucide-react';
 import { motion } from 'motion/react';
 
 const projects = [
   {
     icon: Users,
     title: 'AI Candidate Ranking System',
-    type: 'FastAPI • LLM • Supabase',
-    description: 'Developed an AI-powered recruitment platform for automated candidate screening. Built backend services using FastAPI and PostgreSQL. Implemented resume parsing, embeddings, semantic search, and AI-generated summaries. Integrated Supabase authentication and database services.',
+    type: 'Personal Project',
+    description: 'Built an independent AI-based candidate-screening pipeline — resume parsing, embeddings, semantic search, and AI-generated summaries — with FastAPI, LLMs, and PostgreSQL backend services. Supabase authentication and database services power the workflow.',
     year: '2026',
-    tags: ['FastAPI', 'LLM', 'Supabase', 'RAG'],
+    tags: ['FastAPI', 'Next.js', 'Sentence Transformers', 'LLM', 'Supabase', 'RAG'],
     gradient: 'from-fuchsia-300 to-fuchsia-300',
     link: 'https://ai-candidate-ranking-system-psi.vercel.app/'
   },
@@ -16,9 +16,9 @@ const projects = [
     icon: Sprout,
     title: 'AI for Agriculture',
     type: 'Major Project',
-    description: 'Developed an AI-powered assistant for farmers. Implemented crop disease detection using computer vision. Integrated multilingual chatbot, satellite imagery analysis, weather forecasting, and market price prediction.',
+    description: 'Developed an AI-powered farmer assistant combining crop disease detection, a multilingual chatbot, satellite imagery analysis, weather forecasting, and market price prediction.',
     year: '2025',
-    tags: ['Computer Vision', 'AI', 'Chatbot'],
+    tags: ['AI/ML', 'Multilingual Chatbot', 'Computer Vision'],
     gradient: 'from-fuchsia-300 to-fuchsia-300',
     link: 'https://farmer-centric-ai-dashboard-en9g8i3rzvn4qxepaenhfu.streamlit.app/'
   },
@@ -26,37 +26,38 @@ const projects = [
     icon: Brain,
     title: 'Autonomous Driving using Deep Q-Learning',
     type: 'ICAIA Conference Research Paper',
-    description: 'Studied Deep Q-Learning models and analyzed attack and defense mechanisms. Performed research on reinforcement learning techniques in autonomous driving.',
+    description: 'Studied Deep Q-Learning and reinforcement learning for autonomous driving; analyzed attack and defense mechanisms in RL-based systems.',
     year: '2023',
     tags: ['Deep Learning', 'Reinforcement Learning', 'Research'],
     gradient: 'from-fuchsia-300 to-fuchsia-300'
   },
   {
+    icon: Store,
+    title: 'Aakaars – 3D-Printed Goods Store',
+    type: 'Freelance Client Project',
+    description: 'Delivered a client e-commerce website with a custom Node.js backend on Vercel serverless, Supabase Postgres, session auth, Razorpay payments with HMAC verification, Resend emails, and an owner admin panel; vanilla JavaScript frontend.',
+    year: '2025',
+    tags: ['Node.js', 'Supabase', 'Razorpay', 'Vercel', 'Vanilla JS'],
+    gradient: 'from-fuchsia-300 to-fuchsia-300',
+    link: 'https://aakaars.in'
+  },
+  {
     icon: Eye,
-    title: 'Virtual Keyboard using OpenCV',
+    title: 'Virtual Keyboard – Hand Gesture (Web)',
     type: 'Computer Vision Project',
-    description: 'Built a gesture-based virtual keyboard using OpenCV and Python. Implemented real-time hand tracking and gesture recognition.',
-    year: '2023',
-    tags: ['OpenCV', 'Python', 'Computer Vision'],
+    description: 'Built a gesture-based virtual keyboard with real-time in-browser hand tracking; touch a key with your index finger to type — fully in-browser with no server required.',
+    year: '2026',
+    tags: ['Computer Vision', 'Hand Tracking', 'JavaScript'],
     gradient: 'from-fuchsia-300 to-fuchsia-300',
     link: 'https://virtualkeyboard-rho.vercel.app/'
   },
   {
-    icon: ShoppingCart,
-    title: 'E-commerce Sales Dashboard',
-    type: 'Data Analytics Project',
-    description: 'Developed interactive dashboard to track revenue, profit, and sales trends. Identified top-performing products and regional performance insights.',
-    year: '2023',
-    tags: ['Tableau', 'Data Visualization', 'Analytics'],
-    gradient: 'from-fuchsia-300 to-fuchsia-300'
-  },
-  {
     icon: Film,
-    title: 'MovieSphere – Movie Recommendation System',
-    type: 'Machine Learning Project',
-    description: 'Developed a Netflix-like recommendation system using collaborative and content-based filtering. Built recommendation engine using Python, Pandas, and Scikit-learn.',
-    year: '2023',
-    tags: ['Machine Learning', 'Python', 'Scikit-learn'],
+    title: 'MovieSphere & E-commerce Dashboard',
+    type: 'Data Analytics Project',
+    description: 'Built a Netflix-style recommendation engine using collaborative and content-based filtering, and an interactive dashboard tracking revenue, profit, and regional sales trends.',
+    year: '2025',
+    tags: ['Python', 'Scikit-learn', 'Recommendation Engine', 'Power BI'],
     gradient: 'from-fuchsia-300 to-fuchsia-300',
     link: 'https://moviesphere-pi.vercel.app/'
   },
@@ -67,15 +68,6 @@ const projects = [
     description: 'Designed an interactive Tableau dashboard to analyze Netflix movies and TV shows. Visualized genre distribution, ratings, release trends, and country-wise content insights. Used charts, maps, and KPI cards to present data-driven storytelling effectively.',
     year: '2024',
     tags: ['Tableau', 'Data Visualization', 'Analytics'],
-    gradient: 'from-fuchsia-300 to-fuchsia-300'
-  },
-  {
-    icon: Globe,
-    title: 'Personal Portfolio Website',
-    type: 'Frontend Development Project',
-    description: 'Developed a responsive personal portfolio website using modern web technologies. Showcased projects, technical skills, certifications, and social links interactively. Designed clean UI with animations and professional developer-focused layout.',
-    year: '2026',
-    tags: ['React', 'Frontend', 'UI/UX'],
     gradient: 'from-fuchsia-300 to-fuchsia-300'
   }
 ];

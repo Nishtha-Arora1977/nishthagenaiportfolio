@@ -141,11 +141,11 @@ export default function Hero() {
             <motion.a
               whileHover={{ scale: 1.05, y: -2 }}
               whileTap={{ scale: 0.95 }}
-              href="mailto:anishtha33@gmail.com"
+              href="mailto:nishtha01arora@gmail.com"
               className="flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-fuchsia-300 to-fuchsia-300 text-white rounded-full hover:from-fuchsia-200 hover:to-fuchsia-300 transition-all shadow-lg shadow-fuchsia-300/50 font-medium"
             >
               <Mail className="w-5 h-5" />
-              <span>anishtha33@gmail.com</span>
+              <span>nishtha01arora@gmail.com</span>
             </motion.a>
             <motion.a
               whileHover={{ scale: 1.05, y: -2 }}

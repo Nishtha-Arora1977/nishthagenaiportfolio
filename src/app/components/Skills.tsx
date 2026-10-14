@@ -1,41 +1,41 @@
-import { Code, Server, Database, Brain, Terminal, BookOpen } from 'lucide-react';
+import { Code, Server, Database, Brain, Terminal, BarChart3 } from 'lucide-react';
 import { motion } from 'motion/react';
 
 const skillCategories = [
   {
     icon: Code,
     title: 'Languages',
-    skills: ['Python', 'SQL', 'C++', 'Java'],
+    skills: ['Python', 'JavaScript', 'SQL', 'C++'],
     color: 'from-fuchsia-300 to-fuchsia-300'
   },
   {
     icon: Server,
     title: 'Backend',
-    skills: ['FastAPI', 'REST APIs', 'PostgreSQL', 'Supabase'],
+    skills: ['FastAPI', 'Node.js', 'REST APIs', 'PostgreSQL', 'Supabase', 'Docker'],
     color: 'from-fuchsia-300 to-fuchsia-300'
   },
   {
     icon: Brain,
     title: 'AI/ML',
-    skills: ['LLMs', 'RAG', 'LangChain', 'Scikit-learn', 'TensorFlow'],
+    skills: ['LLMs', 'RAG', 'Embeddings', 'Vector Search', 'LangChain', 'Scikit-learn', 'Decision Trees'],
     color: 'from-fuchsia-300 to-fuchsia-300'
   },
   {
     icon: Database,
     title: 'Databases',
-    skills: ['PostgreSQL', 'Supabase', 'DuckDB'],
+    skills: ['PostgreSQL', 'Supabase'],
+    color: 'from-fuchsia-300 to-fuchsia-300'
+  },
+  {
+    icon: BarChart3,
+    title: 'Analytics & Visualization',
+    skills: ['Power BI', 'Tableau', 'Pandas', 'NumPy', 'Excel', 'Google Sheets'],
     color: 'from-fuchsia-300 to-fuchsia-300'
   },
   {
     icon: Terminal,
     title: 'Tools',
-    skills: ['Git', 'GitHub', 'Docker', 'VS Code', 'Jupyter Notebook'],
-    color: 'from-fuchsia-300 to-fuchsia-300'
-  },
-  {
-    icon: BookOpen,
-    title: 'Coursework',
-    skills: ['DBMS', 'Operating Systems', 'Computer Networks', 'Data Structures', 'Artificial Intelligence'],
+    skills: ['Git', 'GitHub', 'VS Code', 'Jupyter Notebook'],
     color: 'from-fuchsia-300 to-fuchsia-300'
   }
 ];
